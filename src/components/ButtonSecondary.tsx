@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import menu from '/public/menu.png'
+
 
 export function ButtonSecondary() {
   return (
@@ -26,7 +26,6 @@ export function ButtonSecondary() {
       </button>
 
       <button className="flex items-center justify-center gap-2 bg-gray-700 text-white px-6 py-3 w-full outline-none rounded-full cursor-move">
-        <Image src={menu} alt="" />
         MOVALHE SECONDARY
       </button>
     </div>

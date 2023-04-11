@@ -21,7 +21,7 @@ export default function Buttons() {
           HOVER COMPONENT
         </Button>
 
-        <Button bg="primary" type="button" focus='focus:ring-2 focus:ring-violet-100 '>
+        <Button bg="primary" type="button">
           FOCUS COMPONENT
         </Button>
       </div>

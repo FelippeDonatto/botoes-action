@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import menu from '/public/menu.png'
 
 export function ButtonPrimary() {
   return (
@@ -26,7 +25,6 @@ export function ButtonPrimary() {
       </button>
 
       <button className="flex items-center justify-center gap-2 bg-violet-500 text-white px-6 py-3 w-full outline-none rounded-full cursor-move">
-        <Image src={menu} alt="" />
         MOVALHE PRIMARY
       </button>
     </div>

@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import menu from '/public/menu.png'
 
 export function ButtonTertiary() {
   return (
@@ -23,7 +22,6 @@ export function ButtonTertiary() {
       </button>
 
       <button className="flex items-center justify-center gap-2 bg-transparent-500 text-white px-6 py-3 w-full outline-none rounded-full cursor-all-scroll">
-        <Image src={menu} alt="" />
         MOVALHE TERTIARY
       </button>
     </div>
