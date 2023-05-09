@@ -4,7 +4,7 @@ import { ButtonTertiary } from '@/components/ButtonTertiary'
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-center items-center w-full max-w-[1054px] mx-auto h-screen">
+    <main className="flex flex-col justify-center items-center w-full max-w-[1054px] mx-auto h-screen max-md:mt-80">
       <div className="flex flex-col justify-center items-center gap-4 w-full  max-w-[350px]">
         <h2 className="font-bold text-[32px] leading-[100%]">
           Teste os botões
@@ -14,7 +14,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="flex gap-4 w-full max-w-[1054px]">
+      <div className="flex gap-4 w-full max-w-[1054px] max-md:flex-col max-md:px-4">
         <ButtonPrimary />
         <ButtonSecondary />
         <ButtonTertiary />
